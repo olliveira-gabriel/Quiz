@@ -11,52 +11,52 @@
     <section class="container">
         <div class="Titulo">
             <header>
-                <h1>Quiz do corinthians</h1>
+                <h1>Quiz do Corinthians</h1>
             </header>
         </div>
         <div class="perguntas">
             <div class="card1">
-                <p>Pergunta 1</p>
-                <P> Qual foi o ano que o corinthians foi fundado?</P>
+                <p class="Titulo_Cards">Pergunta 1</p>
+                <P>Qual foi o ano que o Corinthians foi fundado?</P>
             </div>
             <div class="card2">
-                <p>Pergunta 2</p>
-                <P> quae rerum debitis </P>
+                <p class="Titulo_Cards">Pergunta 2</p>
+                <P>Quantos Mundiais o Corinthians tem?</P>
             </div>
             <div class="card3">
-                <p>Pergunta 3</p>
-                <P>Qual foi o ano que o corinthians </P>
+                <p class="Titulo_Cards">Pergunta 3</p>
+                <P>Quantos titulos do brasileirão o Corinthians tem?</P>
             </div>
         </div>
         <div class="escolha_Resposta">
-            <p>escola sua resposta</p>
-            <p>escola sua resposta</p>
-            <p>escola sua resposta</p>
+            <p>escolha sua resposta</p>
+            <p>escolha sua resposta</p>
+            <p>escolha sua resposta</p>
         </div>
         <div class="Opcao_Respostas">
             <select  id="Menu_pergunta1" class="Pergunta1">
-                <option value="Num">Alternativas</option>
-                <option value="0">Alternativa 1</option>
-                <option value="0">Alternativa 2</option>
-                <option value="1">Alternativa 3</option>
+                <option value="2">Alternativas</option>
+                <option value="0">1905</option>
+                <option value="0">1950</option>
+                <option value="1">1910</option>
             </select>
             <select  id="Menu_pergunta2" class="Pergunta2">
-                <option value="Num">Alternativas</option>
-                <option value="0">Alternativa 1</option>
-                <option value="0">Alternativa 2</option>
-                <option value="1">Alternativa 3</option>
+                <option value="2">Alternativas</option>
+                <option value="0">4</option>
+                <option value="1">2</option>
+                <option value="0">1</option>
             </select>
             <select  id="Menu_pergunta3" class="Pergunta3">
-                <option value="Num">Alternativas</option>
-                <option value="0">Alternativa 1</option>
-                <option value="0">Alternativa 2</option>
-                <option value="1">Alternativa 3</option>
+                <option value="2">Alternativas</option>
+                <option value="0">4</option>
+                <option value="0"> 12</option>
+                <option value="1"> 7 </option>
             </select>
         </div>
         <div class="Pontuacao">
             <label>Sua Pontuação</label>
-            <input readonly>
-            <button >Finalizar Quiz</button>
+            <input id="InputResultado" readonly>
+            <button onclick="Exibir_Resultado()" >Finalizar Quiz</button>
         </div>
     </section>
 </body>
