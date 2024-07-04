@@ -6,7 +6,11 @@ let Resultado = document.getElementById('InputResultado')
 
 function Exibir_Resultado(){
     if (Pergunta1.value == 2 || Pergunta2.value == 2 || Pergunta3.value == 2){
-        alert("Selecione todas as questoes")
+        alert("Selecione todas as respostas");
+        
+        return;
+        
+        
     }
     else{
         alert("Quiz Finalizado! Confira sua pontuação")
