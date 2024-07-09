@@ -87,9 +87,11 @@ img{
     
 }
 button{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     color: #E3C28B;
-    background: #000;
+    background: #191d20;     
     font-size: 20px;    
+    cursor: pointer;
 }
 select{
     background: #ececec;
